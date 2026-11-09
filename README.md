@@ -15,7 +15,7 @@ What is in here:
 | `index.html` | the built page, and what GitHub Pages serves at the site root. One self-contained file — no dependencies, no network calls, no build step to view it. |
 | `build/template.html` | the page's markup, CSS and JavaScript, with a `/*__DATA__*/` placeholder where results get injected. Edit the design here, never in `index.html`. |
 | `build/build.py` | scrapes a saved copy of the county results page and rewrites `index.html`. |
-| `build/source/results.html` | the saved county page the current `index.html` was built from. |
+| `build/source/` | the source the current `index.html` was built from — a saved county page, or a reduced JSON of an XML report. |
 
 Anything under `build/` is tooling; only `index.html` and `embed.html` are
 meant to be served.
@@ -50,6 +50,25 @@ python3 build/build.py ~/Downloads/results.html --left 38728 -o /tmp/index.html
 ```
 
 `build.py` needs only the Python standard library — no pip install, no Node.
+
+### Two source formats
+
+The county publishes each report two ways, and `build.py` takes either:
+
+- **The results page** (`.html`) — saved from the browser, scraped directly.
+- **An SSRS XML export** (`home/showdocument?id=...`), whose shape is nothing
+  like the page. Rather than carry a second scraper, reduce that export once to
+  the compact JSON in `build/source/report08.json` — per contest the official
+  name, seats, precincts, ballots cast and registration for the jurisdiction,
+  the vote-by-mail / polling-place split, and each candidate's votes — and pass
+  the `.json` path instead. `build.py` picks the loader from the extension.
+
+The XML carries no publish timestamp, so a build from JSON omits the "posted"
+line in the page's dateline rather than invent one.
+
+A useful check on a hand-reduced JSON: in every contest the vote-by-mail and
+polling-place ballots must sum exactly to that jurisdiction's ballots cast. If
+all of them reconcile, the transcription is almost certainly clean.
 
 **If the build stops with an error**, the county has changed its page markup —
 it already renamed a CSS class and added inline styles once mid-election. The

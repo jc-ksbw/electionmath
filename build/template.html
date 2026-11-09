@@ -214,6 +214,8 @@ var state = {
 
 /* ------------------------------------------------------------- helpers */
 function clamp(n, a, b){ return Math.max(a, Math.min(b, n)); }
+function votes(n){ return fmt(n) + (Math.round(n) === 1 ? ' vote' : ' votes'); }
+function moreVotes(n){ return fmt(n) + (Math.round(n) === 1 ? ' more vote' : ' more votes'); }
 function fmt(n){ return Math.round(n).toLocaleString('en-US'); }
 function approx(n){
   n = Math.round(n);
@@ -357,28 +359,27 @@ function takesHTML(r, a){
 
   if (a.remaining <= 0){
     line = 'With no ballots left to count, <strong>' + esc(trailing) + '</strong> stays ' +
-      fmt(a.gap) + ' votes behind <strong>' + esc(leading) + '</strong>' +
-      '.';
+      votes(a.gap) + ' behind <strong>' + esc(leading) + '</strong>.';
   } else if (a.status === 'safe'){
-    line = '<strong>' + esc(trailing) + '</strong> is ' + fmt(a.gap) + ' votes behind <strong>' +
-      esc(leading) + '</strong>' + ' &mdash; more than the estimated ' +
+    line = '<strong>' + esc(trailing) + '</strong> is ' + votes(a.gap) + ' behind <strong>' +
+      esc(leading) + '</strong> &mdash; more than the estimated ' +
       approx(a.remaining) + ' ballots still out in ' + where +
       '. The gap stays out of reach unless more than <strong>' + approx(a.countyNeeded) +
       '</strong> ballots remain countywide.';
   } else if (a.gap === 0){
     line = '<strong>' + esc(trailing) + '</strong> and <strong>' + esc(leading) +
-      '</strong> are tied' + '. One vote out of the estimated ' + approx(a.remaining) +
+      '</strong> are tied. One vote out of the estimated ' + approx(a.remaining) +
       ' ballots still out in ' + where + ' would separate them.';
   } else if (r.measure){
     line = '<strong>' + esc(trailing) + '</strong> trails <strong>' + esc(leading) + '</strong> by ' +
-      fmt(a.gap) + ' votes. To pull ahead, ' + esc(trailing) + ' would need <strong>' + fmt(a.need) +
-      ' more votes</strong> than ' + esc(leading) + ' picks up &mdash; about <strong>' +
+      votes(a.gap) + '. To pull ahead, ' + esc(trailing) + ' would need <strong>' + moreVotes(a.need) +
+      '</strong> than ' + esc(leading) + ' picks up &mdash; about <strong>' +
       (a.share * 100).toFixed(0) + '%</strong> of the estimated ' + approx(a.remaining) +
       ' ballots still out in ' + where + '.';
   } else {
-    line = '<strong>' + esc(trailing) + '</strong> is ' + fmt(a.gap) + ' votes behind <strong>' +
-      esc(leading) + '</strong>' + '. To pass ' + esc(leadShort) + ', ' +
-      esc(trailShort) + ' needs <strong>' + fmt(a.need) + ' more votes</strong> than ' +
+    line = '<strong>' + esc(trailing) + '</strong> is ' + votes(a.gap) + ' behind <strong>' +
+      esc(leading) + '</strong>. To pass ' + esc(leadShort) + ', ' +
+      esc(trailShort) + ' needs <strong>' + moreVotes(a.need) + '</strong> than ' +
       esc(leadShort) + ' picks up &mdash; about <strong>' + (a.share * 100).toFixed(0) +
       '%</strong> of the estimated ' + approx(a.remaining) + ' ballots still out in ' + where + '.';
   }
@@ -505,14 +506,14 @@ function stamp(){
     .replace(/^Sep\./, 'Sept.');
   document.getElementById('eyebrow').textContent = 'Monterey County' + (d ? ' · ' + d : '');
   document.getElementById('stamp').innerHTML =
-    '<b>Unofficial results</b> &middot; ' + esc(meta.title || '') + ' &middot; posted ' +
-    esc(meta.published || '') + ' &middot; ' + esc(meta.countyPrecincts || '') +
-    ' precincts reporting countywide.';
+    '<b>Unofficial results</b> &middot; ' + esc(meta.title || '') +
+    (meta.published ? ' &middot; posted ' + esc(meta.published) : '') +
+    ' &middot; ' + esc(meta.countyPrecincts || '') + ' precincts reporting countywide.';
   document.getElementById('srcline').innerHTML =
     'Source: <a href="https://www.countyofmonterey.gov/government/departments-a-h/elections/election-results">' +
-    'Monterey County Registrar of Voters</a> &mdash; ' + esc(meta.title || '') + ', posted ' +
-    esc(meta.published || '') + '. Statewide offices, judicial retention and statewide propositions ' +
-    'are not shown on this page.';
+    'Monterey County Registrar of Voters</a> &mdash; ' + esc(meta.title || '') +
+    (meta.published ? ', posted ' + esc(meta.published) : '') +
+    '. Statewide offices, judicial retention and statewide propositions are not shown on this page.';
 }
 
 /* ------------------------------------------------------- iframe height */

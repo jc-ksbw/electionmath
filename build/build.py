@@ -173,6 +173,36 @@ def split_name(name):
     return 'Monterey County', n, 'schools' if SCHOOL.search(n) else 'special'
 
 
+def load_json(src):
+    """Load a pre-extracted report.
+
+    The county also publishes each report as an SSRS XML export
+    (home/showdocument?id=...), whose shape is nothing like the HTML page.
+    Rather than carry a second scraper, that export is reduced once to this
+    compact JSON: per contest the official name, seats, precincts, ballots
+    cast and registration for the jurisdiction, the vote-by-mail / polling
+    place split, and each candidate's votes.
+    """
+    blob = json.load(open(src, encoding='utf-8'))
+    races = []
+    for r in blob['races']:
+        cast, reg = r['cast'], r['reg']
+        races.append({
+            'name': r['n'],
+            'seats': r['s'],
+            'precinctsIn': r['pi'],
+            'precinctsOf': r['po'],
+            'totalVotes': sum(c[1] for c in r['c']),
+            'registered': reg,
+            'turnout': (cast / reg * 100) if reg else 0.0,
+            'vbm': r.get('vbm', 0),
+            'pp': r.get('pp', 0),
+            'candidates': [{'name': c[0], 'party': c[2], 'votes': c[1]}
+                           for c in r['c']],
+        })
+    return blob['meta'], races
+
+
 def is_multiseat_contest(race):
     """A contest electing several seats, with more candidates than seats.
 
@@ -209,7 +239,10 @@ def main():
     if not os.path.exists(args.source):
         sys.exit('No results file at %s — save the county page there first.' % args.source)
 
-    meta, races = scrape(args.source)
+    if args.source.lower().endswith('.json'):
+        meta, races = load_json(args.source)
+    else:
+        meta, races = scrape(args.source)
     strays = [(r['name'], c['name']) for r in races for c in r['candidates']
               if not c['name'] or 'Candidate Name' in c['name'] or len(c['name']) > 60]
     if strays:

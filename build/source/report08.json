@@ -1,0 +1,1693 @@
+{
+"meta": {
+"date": "Tuesday, November 3, 2026",
+"title": "County of Monterey Semi-Final Official Report 08",
+"report": "08",
+"published": "",
+"countyBallots": 100487,
+"countyRegistered": 220213,
+"countyPrecincts": "208 / 208"
+},
+"races": [
+{
+"n": "United States Representative District 18",
+"s": 1,
+"pi": 112,
+"po": 112,
+"cast": 42446,
+"reg": 115592,
+"vbm": 36712,
+"pp": 5734,
+"c": [
+[
+"ZOE LOFGREN",
+30816,
+"DEM"
+],
+[
+"SHANE LEWIS",
+11023,
+"REP"
+]
+]
+},
+{
+"n": "United States Representative District 19",
+"s": 1,
+"pi": 96,
+"po": 96,
+"cast": 58041,
+"reg": 104621,
+"vbm": 53262,
+"pp": 4779,
+"c": [
+[
+"JIMMY PANETTA",
+41972,
+"DEM"
+],
+[
+"PETER COE VERBICA",
+14898,
+"REP"
+]
+]
+},
+{
+"n": "Member of the State Assembly District 29",
+"s": 1,
+"pi": 123,
+"po": 123,
+"cast": 49994,
+"reg": 129923,
+"vbm": 43692,
+"pp": 6302,
+"c": [
+[
+"ROBERT RIVAS",
+35566,
+"DEM"
+],
+[
+"DENNIS P. SANCHEZ",
+13590,
+"REP"
+]
+]
+},
+{
+"n": "Member of the State Assembly District 30",
+"s": 1,
+"pi": 85,
+"po": 85,
+"cast": 50493,
+"reg": 90290,
+"vbm": 46282,
+"pp": 4211,
+"c": [
+[
+"DAWN ADDIS",
+34882,
+"DEM"
+],
+[
+"SHANNON KESSLER",
+14335,
+"REP"
+]
+]
+},
+{
+"n": "Monterey County Board of Education Governing Board Member Trustee Area 1",
+"s": 1,
+"pi": 37,
+"po": 37,
+"cast": 24984,
+"reg": 39615,
+"vbm": 23166,
+"pp": 1818,
+"c": [
+[
+"RITA PATEL",
+11996,
+""
+],
+[
+"MEGAN WHILDEN",
+7884,
+""
+]
+]
+},
+{
+"n": "Monterey County Board of Education Governing Board Member Trustee Area 3",
+"s": 1,
+"pi": 38,
+"po": 38,
+"cast": 12627,
+"reg": 30082,
+"vbm": 11287,
+"pp": 1340,
+"c": [
+[
+"HEATHER OWEN",
+7135,
+""
+],
+[
+"RICK DIAZ JR",
+3629,
+""
+]
+]
+},
+{
+"n": "Monterey County Board of Education Governing Board Member Trustee Area 7",
+"s": 1,
+"pi": 20,
+"po": 20,
+"cast": 8207,
+"reg": 23265,
+"vbm": 7054,
+"pp": 1153,
+"c": [
+[
+"ROBERT OCAMPO",
+4976,
+""
+],
+[
+"SHANICE VIRRUETA",
+2426,
+""
+]
+]
+},
+{
+"n": "Hartnell Community College District Governing Board Member Trustee Area 5",
+"s": 1,
+"pi": 10,
+"po": 10,
+"cast": 4641,
+"reg": 14427,
+"vbm": 3838,
+"pp": 803,
+"c": [
+[
+"FELICIA PEREZ KAUSIN",
+2184,
+""
+],
+[
+"PATRICIA COYT",
+1989,
+""
+]
+]
+},
+{
+"n": "Hartnell Community College District Governing Board Member Trustee Area 6",
+"s": 1,
+"pi": 18,
+"po": 18,
+"cast": 6210,
+"reg": 18112,
+"vbm": 5289,
+"pp": 921,
+"c": [
+[
+"SOFIA RAMIREZ",
+2910,
+""
+],
+[
+"ROSALIE C. SANCHEZ",
+2502,
+""
+]
+]
+},
+{
+"n": "Hartnell Community College District Governing Board Member Trustee Area 7",
+"s": 1,
+"pi": 22,
+"po": 22,
+"cast": 5265,
+"reg": 15658,
+"vbm": 4325,
+"pp": 940,
+"c": [
+[
+"NANCY REYES",
+2432,
+""
+],
+[
+"JOHN HUERTA JR",
+2099,
+""
+]
+]
+},
+{
+"n": "Monterey Peninsula Community College District Governing Board Member Trustee Area 1",
+"s": 1,
+"pi": 10,
+"po": 10,
+"cast": 6504,
+"reg": 13886,
+"vbm": 5732,
+"pp": 772,
+"c": [
+[
+"ROSALYN GREEN",
+3840,
+""
+],
+[
+"BEN STRICKLAND",
+1764,
+""
+]
+]
+},
+{
+"n": "Carmel Unified School District Governing Board Member Trustee Area 2",
+"s": 1,
+"pi": 3,
+"po": 3,
+"cast": 2277,
+"reg": 3511,
+"vbm": 2113,
+"pp": 164,
+"c": [
+[
+"KAREY SHAFFER",
+1166,
+""
+],
+[
+"ART FERNANDEZ",
+576,
+""
+]
+]
+},
+{
+"n": "Gonzales Unified School District Governing Board Member Trustee Area 2",
+"s": 1,
+"pi": 3,
+"po": 3,
+"cast": 393,
+"reg": 1071,
+"vbm": 318,
+"pp": 75,
+"c": [
+[
+"ERIN ASKEW",
+144,
+""
+],
+[
+"MARVELIA VALDEZ",
+112,
+""
+],
+[
+"JOE SANCHEZ",
+105,
+""
+]
+]
+},
+{
+"n": "Gonzales Unified School District Governing Board Member Trustee Area 3",
+"s": 1,
+"pi": 6,
+"po": 6,
+"cast": 429,
+"reg": 1032,
+"vbm": 390,
+"pp": 39,
+"c": [
+[
+"MARIA D. CUEVAS",
+199,
+""
+],
+[
+"GERARDO VILLEGAS",
+166,
+""
+]
+]
+},
+{
+"n": "Gonzales Unified School District Governing Board Member Trustee Area 4",
+"s": 1,
+"pi": 4,
+"po": 4,
+"cast": 405,
+"reg": 1128,
+"vbm": 336,
+"pp": 69,
+"c": [
+[
+"ABRAHAM FLORES AVILA",
+186,
+""
+],
+[
+"RUBYCELA VALDEZ",
+145,
+""
+]
+]
+},
+{
+"n": "North Monterey County Unified School District Governing Board Member Trustee Area 2",
+"s": 1,
+"pi": 5,
+"po": 5,
+"cast": 1075,
+"reg": 2690,
+"vbm": 966,
+"pp": 109,
+"c": [
+[
+"ADRIANA MELGOZA RAMIREZ",
+336,
+""
+],
+[
+"CATALINA TORRES",
+334,
+""
+],
+[
+"RUDY J DIAZ",
+273,
+""
+]
+]
+},
+{
+"n": "North Monterey County Unified School District Governing Board Member Trustee Area 4",
+"s": 1,
+"pi": 8,
+"po": 8,
+"cast": 985,
+"reg": 2208,
+"vbm": 863,
+"pp": 122,
+"c": [
+[
+"ADRIAN AYALA ALVAREZ",
+334,
+""
+],
+[
+"JARRETT GARIFE",
+288,
+""
+],
+[
+"ERIC STOVER",
+254,
+""
+]
+]
+},
+{
+"n": "Pacific Grove Unified School District Governing Board Member Trustee Area 1",
+"s": 1,
+"pi": 2,
+"po": 2,
+"cast": 1626,
+"reg": 2509,
+"vbm": 1508,
+"pp": 118,
+"c": [
+[
+"DAN MILLER",
+480,
+""
+],
+[
+"CHARLES \"CHUCK\" BRINKER",
+398,
+""
+],
+[
+"STEPHEN BENNETT",
+394,
+""
+]
+]
+},
+{
+"n": "Salinas Union High School District Governing Board Member Trustee Area 3",
+"s": 1,
+"pi": 11,
+"po": 11,
+"cast": 3464,
+"reg": 10234,
+"vbm": 2941,
+"pp": 523,
+"c": [
+[
+"BRENDA CONTRERAS",
+1752,
+""
+],
+[
+"NATHALIA CARRILLO",
+1303,
+""
+]
+]
+},
+{
+"n": "Salinas Union High School District Governing Board Member Trustee Area 7",
+"s": 1,
+"pi": 19,
+"po": 19,
+"cast": 10257,
+"reg": 18413,
+"vbm": 9583,
+"pp": 674,
+"c": [
+[
+"SARA YOUNG",
+3658,
+""
+],
+[
+"MERISSA DACPANO",
+2774,
+""
+],
+[
+"ELIZABETH LOPEZ",
+1395,
+""
+],
+[
+"ANDREW RAUSCH",
+838,
+""
+]
+]
+},
+{
+"n": "Alisal Union School District Governing Board Member Trustee Area 2",
+"s": 1,
+"pi": 7,
+"po": 7,
+"cast": 2239,
+"reg": 6023,
+"vbm": 1997,
+"pp": 242,
+"c": [
+[
+"ULISES GONZALEZ REYES",
+1060,
+""
+],
+[
+"SANDRA V. OCAMPO",
+998,
+""
+]
+]
+},
+{
+"n": "Alisal Union School District Governing Board Member Trustee Area 3",
+"s": 1,
+"pi": 6,
+"po": 6,
+"cast": 2796,
+"reg": 6995,
+"vbm": 2448,
+"pp": 348,
+"c": [
+[
+"OSCAR RAMOS",
+1655,
+""
+],
+[
+"ROCKY V REYES",
+698,
+""
+]
+]
+},
+{
+"n": "Alisal Union School District Governing Board Member Trustee Area 5",
+"s": 1,
+"pi": 3,
+"po": 3,
+"cast": 979,
+"reg": 3382,
+"vbm": 768,
+"pp": 211,
+"c": [
+[
+"JESÚS R. VELÁSQUEZ",
+505,
+""
+],
+[
+"AURELIA ALVAREZ-SILVA",
+216,
+""
+],
+[
+"MARIA M. JIMENEZ",
+185,
+""
+]
+]
+},
+{
+"n": "Greenfield Union School District Governing Board Member Trustee Area 1",
+"s": 1,
+"pi": 3,
+"po": 3,
+"cast": 470,
+"reg": 1695,
+"vbm": 375,
+"pp": 95,
+"c": [
+[
+"JOSEFINA SILVA",
+311,
+""
+],
+[
+"DAVID KONG",
+113,
+""
+]
+]
+},
+{
+"n": "Greenfield Union School District Governing Board Member Trustee Area 2",
+"s": 1,
+"pi": 3,
+"po": 3,
+"cast": 412,
+"reg": 1245,
+"vbm": 301,
+"pp": 111,
+"c": [
+[
+"LUCILA AYALA",
+201,
+""
+],
+[
+"JUERGEN B. SMITH",
+176,
+""
+]
+]
+},
+{
+"n": "Greenfield Union School District Governing Board Member Trustee Area 3",
+"s": 1,
+"pi": 4,
+"po": 4,
+"cast": 564,
+"reg": 1637,
+"vbm": 473,
+"pp": 91,
+"c": [
+[
+"DENISE JAIME",
+268,
+""
+],
+[
+"GABRIELA MORA",
+212,
+""
+]
+]
+},
+{
+"n": "San Lucas Union Elementary School District Governing Board Member, 2 Year",
+"s": 1,
+"pi": 1,
+"po": 1,
+"cast": 52,
+"reg": 154,
+"vbm": 48,
+"pp": 4,
+"c": [
+[
+"ESMERALDA WITTMANN",
+39,
+""
+],
+[
+"NEREIDA MARISOL GONZALEZ",
+6,
+""
+]
+]
+},
+{
+"n": "City of Carmel-By-The-Sea Mayor",
+"s": 1,
+"pi": 2,
+"po": 2,
+"cast": 1666,
+"reg": 2341,
+"vbm": 1523,
+"pp": 143,
+"c": [
+[
+"HANS BUDER",
+1253,
+""
+],
+[
+"DAVID BOLAND",
+304,
+""
+]
+]
+},
+{
+"n": "City of Del Rey Oaks Mayor",
+"s": 1,
+"pi": 1,
+"po": 1,
+"cast": 712,
+"reg": 1178,
+"vbm": 664,
+"pp": 48,
+"c": [
+[
+"SCOTT DONALDSON",
+564,
+""
+]
+]
+},
+{
+"n": "City of Gonzales Mayor",
+"s": 1,
+"pi": 4,
+"po": 4,
+"cast": 1420,
+"reg": 3865,
+"vbm": 1137,
+"pp": 283,
+"c": [
+[
+"ELIZABETH SILVA",
+999,
+""
+],
+[
+"ANDREW CASTILLO",
+249,
+""
+],
+[
+"HENRY LAIZURE MCDOWELL",
+85,
+""
+]
+]
+},
+{
+"n": "City of Gonzales Member, City Council District 1",
+"s": 1,
+"pi": 1,
+"po": 1,
+"cast": 400,
+"reg": 1190,
+"vbm": 326,
+"pp": 74,
+"c": [
+[
+"DELIA GUTIERREZ",
+185,
+""
+],
+[
+"MARIA OROZCO",
+184,
+""
+]
+]
+},
+{
+"n": "City of Gonzales Member, City Council District 3",
+"s": 1,
+"pi": 1,
+"po": 1,
+"cast": 289,
+"reg": 784,
+"vbm": 226,
+"pp": 63,
+"c": [
+[
+"ADRIAN PACO",
+223,
+""
+]
+]
+},
+{
+"n": "City of Gonzales Member, City Council District 4, 2 Year",
+"s": 1,
+"pi": 1,
+"po": 1,
+"cast": 353,
+"reg": 814,
+"vbm": 277,
+"pp": 76,
+"c": [
+[
+"CONSTANCE \"CONNIE\" ARELLANO",
+287,
+""
+],
+[
+"HENRY MARTINEZ SR",
+42,
+""
+]
+]
+},
+{
+"n": "City of Greenfield Mayor",
+"s": 1,
+"pi": 4,
+"po": 4,
+"cast": 2122,
+"reg": 6798,
+"vbm": 1657,
+"pp": 465,
+"c": [
+[
+"ROBERT \"BOB\" WHITE",
+1583,
+""
+]
+]
+},
+{
+"n": "City of Greenfield Member, City Council District 1",
+"s": 1,
+"pi": 1,
+"po": 1,
+"cast": 517,
+"reg": 1626,
+"vbm": 391,
+"pp": 126,
+"c": [
+[
+"BELEN GARCIA",
+390,
+""
+]
+]
+},
+{
+"n": "City of Greenfield Member, City Council District 3",
+"s": 1,
+"pi": 1,
+"po": 1,
+"cast": 601,
+"reg": 1866,
+"vbm": 472,
+"pp": 129,
+"c": [
+[
+"DAVID H. GODOY",
+330,
+""
+],
+[
+"RACHEL M. ORTIZ",
+210,
+""
+]
+]
+},
+{
+"n": "City of King Member, City Council District 1",
+"s": 1,
+"pi": 1,
+"po": 1,
+"cast": 374,
+"reg": 1363,
+"vbm": 307,
+"pp": 67,
+"c": [
+[
+"JONAS LALEHZADEH",
+272,
+""
+]
+]
+},
+{
+"n": "City of King Member, City Council District 2",
+"s": 1,
+"pi": 1,
+"po": 1,
+"cast": 219,
+"reg": 690,
+"vbm": 187,
+"pp": 32,
+"c": [
+[
+"MIKE LEBARRE",
+169,
+""
+]
+]
+},
+{
+"n": "City of Marina Mayor",
+"s": 1,
+"pi": 8,
+"po": 8,
+"cast": 6621,
+"reg": 14003,
+"vbm": 5945,
+"pp": 676,
+"c": [
+[
+"MIKE MOELLER",
+2860,
+""
+],
+[
+"ELISABETH \"LIESBETH\" VISSCHER",
+2205,
+""
+],
+[
+"ANA LUZ ACEVEDO-CABRERA",
+1163,
+""
+]
+]
+},
+{
+"n": "City of Marina Member, City Council District 1",
+"s": 1,
+"pi": 2,
+"po": 2,
+"cast": 1240,
+"reg": 2987,
+"vbm": 1050,
+"pp": 190,
+"c": [
+[
+"BRIAN MCCARTHY",
+920,
+""
+]
+]
+},
+{
+"n": "City of Marina Member, City Council District 4",
+"s": 1,
+"pi": 2,
+"po": 2,
+"cast": 1766,
+"reg": 3703,
+"vbm": 1600,
+"pp": 166,
+"c": [
+[
+"BRAD IMAMURA",
+549,
+""
+],
+[
+"MIKE SIMMONS",
+529,
+""
+],
+[
+"ATHENA RITA BURCIAGA",
+510,
+""
+]
+]
+},
+{
+"n": "City of Monterey Mayor",
+"s": 1,
+"pi": 15,
+"po": 15,
+"cast": 9262,
+"reg": 16047,
+"vbm": 8456,
+"pp": 806,
+"c": [
+[
+"TYLLER WILLIAMSON",
+6245,
+""
+],
+[
+"VINCE MALFITANO",
+2383,
+""
+]
+]
+},
+{
+"n": "City of Monterey Member, City Council District 1",
+"s": 1,
+"pi": 4,
+"po": 4,
+"cast": 2728,
+"reg": 4849,
+"vbm": 2449,
+"pp": 279,
+"c": [
+[
+"KIM BARBER",
+1265,
+""
+],
+[
+"TOM REEVES",
+1193,
+""
+]
+]
+},
+{
+"n": "City of Monterey Member, City Council District 2",
+"s": 1,
+"pi": 4,
+"po": 4,
+"cast": 2286,
+"reg": 3913,
+"vbm": 2146,
+"pp": 140,
+"c": [
+[
+"ALEC M MANAS",
+826,
+""
+],
+[
+"VICKI NOHRDEN",
+747,
+""
+],
+[
+"JEFF WHITMOYER",
+465,
+""
+]
+]
+},
+{
+"n": "City of Pacific Grove Mayor",
+"s": 1,
+"pi": 6,
+"po": 6,
+"cast": 6740,
+"reg": 10573,
+"vbm": 6278,
+"pp": 462,
+"c": [
+[
+"NICK SMITH",
+3600,
+""
+],
+[
+"LUKE COLETTI",
+2692,
+""
+]
+]
+},
+{
+"n": "City of Pacific Grove Member, City Council, 2 Year",
+"s": 1,
+"pi": 6,
+"po": 6,
+"cast": 6740,
+"reg": 10573,
+"vbm": 6278,
+"pp": 462,
+"c": [
+[
+"LORI MCDONNELL",
+4888,
+""
+],
+[
+"JAMES ORLANDO OGLE III",
+804,
+""
+]
+]
+},
+{
+"n": "City of Pacific Grove Member, City Council District 1",
+"s": 1,
+"pi": 1,
+"po": 1,
+"cast": 1223,
+"reg": 1824,
+"vbm": 1150,
+"pp": 73,
+"c": [
+[
+"CYNTHIA GARFIELD",
+612,
+""
+],
+[
+"KEVIN J. HANLEY",
+500,
+""
+]
+]
+},
+{
+"n": "City of Pacific Grove Member, City Council District 3",
+"s": 1,
+"pi": 1,
+"po": 1,
+"cast": 1031,
+"reg": 1591,
+"vbm": 963,
+"pp": 68,
+"c": [
+[
+"TARA LEWELING",
+391,
+""
+],
+[
+"ANDREW KUBICA",
+328,
+""
+],
+[
+"SUSAN GOLDBECK",
+176,
+""
+]
+]
+},
+{
+"n": "City of Pacific Grove Member, City Council District 5",
+"s": 1,
+"pi": 1,
+"po": 1,
+"cast": 962,
+"reg": 1625,
+"vbm": 877,
+"pp": 85,
+"c": [
+[
+"CHRIS THOMAS",
+674,
+""
+]
+]
+},
+{
+"n": "City of Salinas Mayor",
+"s": 1,
+"pi": 53,
+"po": 53,
+"cast": 26588,
+"reg": 71154,
+"vbm": 23148,
+"pp": 3440,
+"c": [
+[
+"DENNIS DONOHUE",
+15179,
+""
+],
+[
+"PETER SZALAI",
+5902,
+""
+],
+[
+"DANIEL MUÑOZ",
+2993,
+""
+],
+[
+"HEZEKIAH GONZALEZ",
+1235,
+""
+]
+]
+},
+{
+"n": "City of Salinas Member, City Council District 2",
+"s": 1,
+"pi": 6,
+"po": 6,
+"cast": 2992,
+"reg": 9621,
+"vbm": 2474,
+"pp": 518,
+"c": [
+[
+"TONY BARRERA",
+1686,
+""
+],
+[
+"JOSE GUERRA",
+1071,
+""
+]
+]
+},
+{
+"n": "City of Salinas Member, City Council District 3",
+"s": 1,
+"pi": 10,
+"po": 10,
+"cast": 7125,
+"reg": 15025,
+"vbm": 6460,
+"pp": 665,
+"c": [
+[
+"MARGARET C. D'ARRIGO",
+3858,
+""
+],
+[
+"CARY SWENSEN",
+2150,
+""
+],
+[
+"BRENT BAGLEY",
+603,
+""
+]
+]
+},
+{
+"n": "City of Salinas Member, City Council District 5",
+"s": 1,
+"pi": 9,
+"po": 9,
+"cast": 3851,
+"reg": 11757,
+"vbm": 3277,
+"pp": 574,
+"c": [
+[
+"IRMA C. LOPEZ",
+1912,
+""
+],
+[
+"ANDREW SANDOVAL",
+1665,
+""
+]
+]
+},
+{
+"n": "City of Sand City Mayor",
+"s": 1,
+"pi": 1,
+"po": 1,
+"cast": 106,
+"reg": 233,
+"vbm": 89,
+"pp": 17,
+"c": [
+[
+"MARY ANN CARBONE",
+80,
+""
+]
+]
+},
+{
+"n": "City of Seaside Mayor",
+"s": 1,
+"pi": 11,
+"po": 11,
+"cast": 6962,
+"reg": 15180,
+"vbm": 6101,
+"pp": 861,
+"c": [
+[
+"IAN N. OGLESBY",
+3740,
+""
+],
+[
+"ALEX MILLER",
+2793,
+""
+]
+]
+},
+{
+"n": "City of Soledad Member, City Council District 2",
+"s": 1,
+"pi": 1,
+"po": 1,
+"cast": 938,
+"reg": 2900,
+"vbm": 821,
+"pp": 117,
+"c": [
+[
+"EUGENE IVEY",
+606,
+""
+],
+[
+"DON J BOLIN",
+258,
+""
+]
+]
+},
+{
+"n": "Salinas Valley Memorial Healthcare System Director Zone 4",
+"s": 1,
+"pi": 30,
+"po": 30,
+"cast": 13914,
+"reg": 26484,
+"vbm": 12868,
+"pp": 1046,
+"c": [
+[
+"JAMES DACUS",
+6525,
+""
+],
+[
+"CATHERINE CARSON",
+5376,
+""
+]
+]
+},
+{
+"n": "Measure I: Carmel Unified School District",
+"s": 1,
+"pi": 19,
+"po": 19,
+"cast": 10907,
+"reg": 17061,
+"vbm": 10131,
+"pp": 776,
+"c": [
+[
+"YES",
+5758,
+""
+],
+[
+"NO",
+4424,
+""
+]
+]
+},
+{
+"n": "Measure K: Pacific Grove Unified School District",
+"s": 1,
+"pi": 7,
+"po": 7,
+"cast": 7876,
+"reg": 12416,
+"vbm": 7340,
+"pp": 536,
+"c": [
+[
+"YES",
+5119,
+""
+],
+[
+"NO",
+2333,
+""
+]
+]
+},
+{
+"n": "Measure G-26: Paso Robles Joint Unified School District",
+"s": 1,
+"pi": 1,
+"po": 1,
+"cast": 104,
+"reg": 185,
+"vbm": 104,
+"pp": 0,
+"c": [
+[
+"NO",
+57,
+""
+],
+[
+"YES",
+44,
+""
+]
+]
+},
+{
+"n": "Measure L: North Monterey County Unified School District",
+"s": 1,
+"pi": 21,
+"po": 21,
+"cast": 7498,
+"reg": 15951,
+"vbm": 6780,
+"pp": 718,
+"c": [
+[
+"YES",
+3926,
+""
+],
+[
+"NO",
+3314,
+""
+]
+]
+},
+{
+"n": "Measure J: South Monterey County Joint Union High School District",
+"s": 1,
+"pi": 18,
+"po": 18,
+"cast": 5055,
+"reg": 15168,
+"vbm": 4133,
+"pp": 922,
+"c": [
+[
+"YES",
+3285,
+""
+],
+[
+"NO",
+1448,
+""
+]
+]
+},
+{
+"n": "Measure E: County of Monterey",
+"s": 1,
+"pi": 208,
+"po": 208,
+"cast": 100333,
+"reg": 220213,
+"vbm": 89825,
+"pp": 10508,
+"c": [
+[
+"YES",
+68006,
+""
+],
+[
+"NO",
+27855,
+""
+]
+]
+},
+{
+"n": "Measure M: City of Carmel-By-The-Sea",
+"s": 1,
+"pi": 2,
+"po": 2,
+"cast": 1662,
+"reg": 2341,
+"vbm": 1520,
+"pp": 142,
+"c": [
+[
+"YES",
+1123,
+""
+],
+[
+"NO",
+489,
+""
+]
+]
+},
+{
+"n": "Measure N: City of Carmel-By-The-Sea",
+"s": 1,
+"pi": 2,
+"po": 2,
+"cast": 1662,
+"reg": 2341,
+"vbm": 1520,
+"pp": 142,
+"c": [
+[
+"YES",
+1031,
+""
+],
+[
+"NO",
+566,
+""
+]
+]
+},
+{
+"n": "Measure O: City of Greenfield",
+"s": 1,
+"pi": 4,
+"po": 4,
+"cast": 2118,
+"reg": 6798,
+"vbm": 1654,
+"pp": 464,
+"c": [
+[
+"YES",
+1220,
+""
+],
+[
+"NO",
+806,
+""
+]
+]
+},
+{
+"n": "Measure P: City of King",
+"s": 1,
+"pi": 5,
+"po": 5,
+"cast": 1428,
+"reg": 4765,
+"vbm": 1191,
+"pp": 237,
+"c": [
+[
+"YES",
+1043,
+""
+],
+[
+"NO",
+330,
+""
+]
+]
+},
+{
+"n": "Measure Q: City of Marina",
+"s": 1,
+"pi": 8,
+"po": 8,
+"cast": 6613,
+"reg": 14003,
+"vbm": 5937,
+"pp": 676,
+"c": [
+[
+"NO",
+4892,
+""
+],
+[
+"YES",
+1548,
+""
+]
+]
+},
+{
+"n": "Measure S: City of Monterey",
+"s": 1,
+"pi": 15,
+"po": 15,
+"cast": 9246,
+"reg": 16047,
+"vbm": 8440,
+"pp": 806,
+"c": [
+[
+"YES",
+6876,
+""
+],
+[
+"NO",
+2003,
+""
+]
+]
+},
+{
+"n": "Measure R: City of Pacific Grove",
+"s": 1,
+"pi": 6,
+"po": 6,
+"cast": 6727,
+"reg": 10573,
+"vbm": 6265,
+"pp": 462,
+"c": [
+[
+"YES",
+4447,
+""
+],
+[
+"NO",
+1951,
+""
+]
+]
+},
+{
+"n": "Measure G: City of Salinas",
+"s": 1,
+"pi": 53,
+"po": 53,
+"cast": 26558,
+"reg": 71154,
+"vbm": 23121,
+"pp": 3437,
+"c": [
+[
+"YES",
+19948,
+""
+],
+[
+"NO",
+5784,
+""
+]
+]
+},
+{
+"n": "Measure H: City of Salinas",
+"s": 1,
+"pi": 53,
+"po": 53,
+"cast": 26558,
+"reg": 71154,
+"vbm": 23121,
+"pp": 3437,
+"c": [
+[
+"NO",
+15575,
+""
+],
+[
+"YES",
+10053,
+""
+]
+]
+},
+{
+"n": "Measure V: North County Public Recreation District",
+"s": 1,
+"pi": 13,
+"po": 13,
+"cast": 3111,
+"reg": 7040,
+"vbm": 2805,
+"pp": 306,
+"c": [
+[
+"YES",
+1848,
+""
+],
+[
+"NO",
+1161,
+""
+]
+]
+},
+{
+"n": "Measure T: Community Facilities District No. 2 (Road Quality) of the Santa Lucia Community Services District",
+"s": 1,
+"pi": 2,
+"po": 2,
+"cast": 116,
+"reg": 169,
+"vbm": 113,
+"pp": 3,
+"c": [
+[
+"YES",
+86,
+""
+],
+[
+"NO",
+29,
+""
+]
+]
+},
+{
+"n": "Measure U: Soledad-Mission Recreation District",
+"s": 1,
+"pi": 9,
+"po": 9,
+"cast": 3145,
+"reg": 9653,
+"vbm": 2715,
+"pp": 430,
+"c": [
+[
+"YES",
+1775,
+""
+],
+[
+"NO",
+1271,
+""
+]
+]
+}
+]
+}
